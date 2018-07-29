@@ -1,0 +1,4 @@
+[submodule "deluvi.github.io"]
+	path = deluvi.github.io
+	url = git@github.com:Deluvi/deluvi.github.io.git
+	branch = master

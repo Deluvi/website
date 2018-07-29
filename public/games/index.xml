@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on Deluvi&#39;s website</title>
+    <link>http://example.org/games/</link>
+    <description>Recent content in Games on Deluvi&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Jan 2018 11:42:13 +0100</lastBuildDate>
+    
+	<atom:link href="http://example.org/games/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sid Le Meilleur&#39;s Battleground</title>
+      <link>http://example.org/games/sid-le-meilleur/</link>
+      <pubDate>Thu, 25 Jan 2018 11:42:13 +0100</pubDate>
+      
+      <guid>http://example.org/games/sid-le-meilleur/</guid>
+      <description>This game has been made for the Make something horrible 2018 gamejam.
+The subject of the gamejam was to make, as the name subject, a horrible game. The theme of this year was: &amp;ldquo;What if the creators switched their games?&amp;rdquo;. For my game, I choosed Sid Meier (Civilization&amp;rsquo;s gamedesigner) with PUBG (a battleroyale game).
+Funfact, it has been my first real game project that I actually finished: even though it has a very unusual graphic style and a very simple gameplay, I look back to this game fondly because I actually finished it on time.</description>
+    </item>
+    
+  </channel>
+</rss>

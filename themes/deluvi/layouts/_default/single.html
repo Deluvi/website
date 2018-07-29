@@ -1,0 +1,10 @@
+{{ define "title" }}
+{{.Title}} - {{.Site.Title}}
+{{end}}
+{{ define "main" }}
+<article>
+<h1>{{ .Title }}</h1>
+<time>{{.Date.Format "Mon Jan 2, 2006"}}</time>
+{{ .Content }}
+</article>
+{{end}}

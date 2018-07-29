@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>
+Hello World! 🎉 - Deluvi&#39;s website
+</title>
+<link rel="stylesheet" href="/style.css"/>
+<link rel="icon" type="image/png" href="/img/avatar.png"/>
+</head>
+<body>
+<header>
+
+<h1 id="maintitle"><a href="/">Deluvi's website</a></h1>
+<div id="navbar">
+<a href="/blog">Blog</a>
+<a href="/games">Games</a>
+<a rel="me" href="https://github.com/Deluvi">Github</a>
+<a rel="me" href="https://deluvi.itch.io/">Itch.io</a>
+</div>
+
+</header>
+<main>
+
+<article>
+<h1>Hello World! 🎉</h1>
+<time>Sun Jul 29, 2018</time>
+<p>Hello people! This is Deluvi speaking. Welcome to my first blog post!</p>
+
+<p>I have been inspired by the <a href="https://indieweb.org/">Indieweb movement</a> to make my own website. I really like their ideas of owning our own data and content and not letting companies owning them for convenience&rsquo;s sake, since it can be as simple to share on our own website with the help of modern tooling.</p>
+
+<p>In this first blog post, I will share my current setup of this static website. Mostly, to make a static blogging website, you will need three things:</p>
+
+<ul>
+<li>A <strong>static site generator</strong>: this is a software that you use to generate your html that you will feed to your provider. To generate my whole website, I use <a href="https://gohugo.io">Hugo</a>. I made my own minimal theme just for funsies, but there are a lot of already made themes that looks good. Once you have a theme, you can start producing content right away. The posts are written in Markdown (a very simple language to write content). You can divide your blog content in different sections (here for example, there is a <a href="/blog">blog</a> section and a <a href="/games">games</a> section).</li>
+<li>A <strong>hosting solution</strong>: you need a server somewhere in the world to serve your html content. For this end, I am using <a href="https://pages.github.com/">Github Pages</a>. The main selling point of this solution is that it allows custom domain names for free unlike some other solutions.</li>
+<li>A <strong>domain name</strong>: this part is not mandatory to be able to publish, but if you are farsighted, it is probably more than recommended to have one. Say you don&rsquo;t take one and you are currently hosted on Github pages, if someone wants to link one of your blog post, they will use something like &ldquo;username.github.io/blog/my-awesome-post.html&rdquo;. The day you change your hosting solution, those links will be broken. If you had one domain name, everything will be redirected automatically. The domain name is also your main identity on the web: it is something that you own and that is only for you.<br />
+As for my setup, I use <a href="https://www.gandi.net/">Gandi</a> as a domain name service for the <a href="https://deluvi.com">deluvi.com</a> name mainly because it has been recommanded to me by someone else; just use one that you trust.</li>
+</ul>
+
+<p>And that&rsquo;s it! With those things, you have a website and are ready to publish on the internet, independently of any entity!</p>
+
+<p>In the next weeks, I will be trying to implement some of the Indieweb standards into this static website. Currently, I am aiming to implement <a href="https://indieweb.org/Webmention">Webmentions</a> so you can leave me a comment below this article later (maybe you just did, person from the future). I will share my technique on how to implement them in Hugo and the principles to implement them in any static website generator.</p>
+
+</article>
+
+</main>
+<footer>
+
+<p><a href="/index.xml">Rss feed</a></p>
+
+</footer>
+</body>
+</html>

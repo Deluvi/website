@@ -1,0 +1,11 @@
+{{ define "title" }}
+{{.Title}} - {{.Site.Title}}
+{{end}}
+{{ define "main" }}
+<h1>{{.Title}}</h1>
+<ul id="postlist">
+{{ range .Data.Pages }}
+<li><a href="{{.URL}}">{{.Date.Format "02/01/2006"}}: {{ .Title }}</a></li>
+{{ end }}
+</ul>
+{{ end }}
