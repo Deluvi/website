@@ -1,6 +1,7 @@
 ---
 title: "Sid Le Meilleur's Battleground"
 date: 2018-01-25T11:42:13+01:00
+summary: "When Civilization meets PUBG"
 ---
 
 This game has been made for the [Make something horrible 2018](https://itch.io/jam/make-something-horrible-2018) gamejam.

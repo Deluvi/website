@@ -1,6 +1,7 @@
 ---
 title: "Hello World! 🎉"
 date: 2018-07-29T14:23:10+02:00
+summary: "My very first blog post!"
 ---
 Hello people! This is Deluvi speaking. Welcome to my first blog post!
 
