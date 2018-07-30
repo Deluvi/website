@@ -1,6 +1,6 @@
 Hello! Welcome to my website!
 
-My name is Deluvi. I am a french computer science person that enjoy coding, video games and music.
+My name is <a href="https://deluvi.com" class="h-card">Deluvi</a>. I am a french computer science person that enjoy coding, video games and music.
 
 If you want, you can try out [my games](/games). I have an [Itch.io account](https://deluvi.itch.io/) where I put the games.
 
