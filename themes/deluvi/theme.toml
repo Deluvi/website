@@ -5,17 +5,11 @@ name = "Deluvi"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
 description = ""
-homepage = "http://example.com/"
+homepage = "https://deluvi.com/"
 tags = []
 features = []
 min_version = "0.34"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Deluvi"
+  homepage = "https://deluvi.com"
