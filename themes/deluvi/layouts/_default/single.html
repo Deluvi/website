@@ -4,7 +4,7 @@
 {{ define "main" }}
 <article class="h-entry">
 <h1 class="p-name">{{ .Title }}</h1>
-<div class="h-card"><img class="u-photo" src="/img/avatar-medium.png" style="display: none;"/>By <a class="p-author p-name u-url" href="https://deluvi.com">Deluvi</a></div>
+<div class="u-author h-card"><img class="u-photo" src="/img/avatar-medium.png" style="display: none;"/>By <a class="p-author p-name u-url" href="https://deluvi.com">Deluvi</a></div>
 <a class="u-url" href="{{.Permalink}}"><time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{.Date.Format "Mon Jan 2, 2006"}}</time></a>
 <div class="p-summary">{{.Params.summary}}</div>
 <div class="e-content">
