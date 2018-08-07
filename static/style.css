@@ -14,6 +14,7 @@ a:hover {
     font-size:50px;
     text-decoration-style: wavy;
     text-decoration:wavy;
+    margin-bottom:20px;
 }
 #navbar>a {
     font-size:42px;
@@ -28,23 +29,41 @@ header {
     border-width:thick;
     border-color:#22471f;
     border-style: solid;
-
 }
+
+#header-img {
+    background-color: #505050;
+    border-width: 1px;
+    border-color: #4a4a4a;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 110px;
+    display: block;
+    margin-bottom:20px;
+}
+
 body {
     font-family : Arial,sans-serif;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left: auto;
+    margin-right: auto;
 }
-@media (min-width: 800px){
-    main {
-        margin-left:15%;
-        margin-right:15%;
+
+@media (min-width: 1000px) {
+    body {
+        width: 50vw;
     }
 }
-@media (max-width: 800px){
-    main {
-        margin-left:8%;
-        margin-right:8%;
+  
+@media (min-width: 800px) and (max-width: 1000px) {
+    body {
+        width: 70vw;
+    }
+}
+  
+@media (max-width: 800px) {
+    body {
+        width: 95vw;
     }
 }
 
@@ -69,4 +88,12 @@ li {
 img {
     max-width:100%;
     max-height:100%;
+}
+.webmentions {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.webmentions div {
+    margin-top:5px;
+    margin-bottom:5px;
 }
