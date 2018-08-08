@@ -45,24 +45,27 @@ header {
 
 body {
     font-family : Arial,sans-serif;
+}
+
+header, main {
     margin-left: auto;
     margin-right: auto;
 }
 
 @media (min-width: 1000px) {
-    body {
+    header, main {
         width: 50vw;
     }
 }
   
 @media (min-width: 800px) and (max-width: 1000px) {
-    body {
+    header, main {
         width: 70vw;
     }
 }
   
 @media (max-width: 800px) {
-    body {
+    header, main {
         width: 95vw;
     }
 }
