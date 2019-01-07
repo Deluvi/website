@@ -12,7 +12,7 @@
 <div class="bookmark"><a href="{{ .author.url }}">{{ .author.name }}</a> bookmarked this post</div>
 {{ end }}
 {{ if eq .mention_type "repost" }}
-<div class="repost">A repost is available <a href="{{ .url }}">here</a></div>
+<div class="repost"><a href="{{ .author.url }}">{{ .author.name }}</a> <a href="{{ .url }}">reposted</a> this article</div>
 {{ end }}
 {{ if eq .mention_type "rsvp" }}
 <div class="rsvp"><a href="{{ .author.url }}">{{ .author.name }}</a> responded to the rsvp <a href="{{ .url }}">here</a></div>
