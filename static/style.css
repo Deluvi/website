@@ -100,3 +100,8 @@ img {
     margin-top:5px;
     margin-bottom:5px;
 }
+
+img.white-schema {
+    background-color:#ffffff;
+    width:100%;
+}
