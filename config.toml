@@ -2,3 +2,5 @@ baseURL = "https://deluvi.com/"
 languageCode = "en-us"
 title = "Deluvi's website"
 theme = "Deluvi"
+[markup.goldmark.renderer]
+unsafe = true
